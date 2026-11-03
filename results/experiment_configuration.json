@@ -1,0 +1,34 @@
+{
+  "dataset_url": "https://zenodo.org/records/14182446",
+  "seed": 42,
+  "n_subjects": 13,
+  "n_paired_trials": 156,
+  "n_windows": 11692,
+  "window_seconds": 1.0,
+  "hop_seconds": 0.5,
+  "purity_threshold": 0.8,
+  "max_label_age_s": 0.2,
+  "max_windows_subject": 900,
+  "max_windows_trial": 150,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "CNN_EPOCHS": 18,
+  "CNN_PATIENCE": 5,
+  "CNN_BATCH_SIZE": 128,
+  "compute_device": "cpu",
+  "support_fraction": 0.2,
+  "gap_seconds": 2.0,
+  "execution_utc": "2026-10-16T00:51:24.127897+00:00",
+  "raw_data_not_included_in_result_archive": true,
+  "subject_independent_evaluation": true,
+  "limitations": [
+    "Self-perceived fatigue ratings",
+    "Overlapping windows",
+    "Finite per-subject sampling",
+    "Only dataset participants",
+    "Offline zero-phase filtering"
+  ]
+}
